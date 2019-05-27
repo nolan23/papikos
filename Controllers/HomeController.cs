@@ -10,6 +10,12 @@ namespace PapiKos.Controllers
 {
     public class HomeController : Controller
     {
+        private readonly PapiKosContext _context;
+
+        public HomeController(PapiKosContext context)
+        {
+            _context = context;
+        }
         public IActionResult Index(string search)
         {
             if(search==null || search.Equals("")){
@@ -29,8 +35,14 @@ namespace PapiKos.Controllers
             return View();
         }
 
-        public IActionResult Detail(){
-            return View("Detail");
+        public IActionResult Detail(int? id){
+            var kamar =  _context.Kamar.FirstOrDefault(m => m.KamarId == id);
+            if (kamar == null)
+            {
+                return NotFound();
+            }
+
+            return View(kamar);
         }
 
         [HttpPost]
