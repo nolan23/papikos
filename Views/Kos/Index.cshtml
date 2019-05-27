@@ -1,0 +1,54 @@
+@model IEnumerable<PapiKos.Models.Kos>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "_DefaultLayout";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.NamaKos)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.JumlahKamar)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DeskripsiTambahan)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Alamat)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.NamaKos)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.JumlahKamar)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DeskripsiTambahan)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Alamat)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

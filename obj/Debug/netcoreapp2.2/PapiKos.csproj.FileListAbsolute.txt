@@ -28,3 +28,12 @@
 /home/roby/Documents/Kuliah/Semester_8/RPLBK/Projek/PapiKos/obj/Debug/netcoreapp2.2/PapiKos.dll
 /home/roby/Documents/Kuliah/Semester_8/RPLBK/Projek/PapiKos/obj/Debug/netcoreapp2.2/PapiKos.pdb
 /home/roby/Documents/Kuliah/Semester_8/RPLBK/Projek/PapiKos/obj/Debug/netcoreapp2.2/PapiKos.csproj.CopyComplete
+/home/roby/Documents/Kuliah/Semester_8/RPLBK/Projek/PapiKos/obj/Debug/netcoreapp2.2/Razor/Views/Home/Login.g.cshtml.cs
+/home/roby/Documents/Kuliah/Semester_8/RPLBK/Projek/PapiKos/obj/Debug/netcoreapp2.2/Razor/Views/Home/Create.g.cshtml.cs
+/home/roby/Documents/Kuliah/Semester_8/RPLBK/Projek/PapiKos/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_DefaultLayout.g.cshtml.cs
+/home/roby/Documents/Kuliah/Semester_8/RPLBK/Projek/PapiKos/obj/Debug/netcoreapp2.2/Razor/Views/Kos/Create.g.cshtml.cs
+/home/roby/Documents/Kuliah/Semester_8/RPLBK/Projek/PapiKos/obj/Debug/netcoreapp2.2/Razor/Views/Kos/Delete.g.cshtml.cs
+/home/roby/Documents/Kuliah/Semester_8/RPLBK/Projek/PapiKos/obj/Debug/netcoreapp2.2/Razor/Views/Kos/Details.g.cshtml.cs
+/home/roby/Documents/Kuliah/Semester_8/RPLBK/Projek/PapiKos/obj/Debug/netcoreapp2.2/Razor/Views/Kos/Edit.g.cshtml.cs
+/home/roby/Documents/Kuliah/Semester_8/RPLBK/Projek/PapiKos/obj/Debug/netcoreapp2.2/Razor/Views/Kos/Index.g.cshtml.cs
+/home/roby/Documents/Kuliah/Semester_8/RPLBK/Projek/PapiKos/obj/Debug/netcoreapp2.2/Razor/Views/Home/Detail.g.cshtml.cs

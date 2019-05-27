@@ -1,0 +1,49 @@
+@model PapiKos.Models.Kos
+
+@{
+    ViewData["Title"] = "Create";
+    Layout = "_DefaultLayout";
+}
+
+<h1>Create</h1>
+
+<h4>Kos</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="NamaKos" class="control-label"></label>
+                <input asp-for="NamaKos" class="form-control" />
+                <span asp-validation-for="NamaKos" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="JumlahKamar" class="control-label"></label>
+                <input asp-for="JumlahKamar" class="form-control" />
+                <span asp-validation-for="JumlahKamar" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DeskripsiTambahan" class="control-label"></label>
+                <input asp-for="DeskripsiTambahan" class="form-control" />
+                <span asp-validation-for="DeskripsiTambahan" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Alamat" class="control-label"></label>
+                <input asp-for="Alamat" class="form-control" />
+                <span asp-validation-for="Alamat" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

@@ -1,0 +1,9 @@
+@model PapiKos.Models.Account;
+
+@{
+    var data = Model;
+    ViewBag.Title="Create";
+    var test = "test"+@Model.Name;
+}
+
+<h2><a href="@test">test</a> @Html.DisplayFor(model => model.Password)</h2>

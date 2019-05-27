@@ -10,14 +10,32 @@ namespace PapiKos.Controllers
 {
     public class HomeController : Controller
     {
-        public IActionResult Index()
+        public IActionResult Index(string search)
         {
-            return View();
+            if(search==null || search.Equals("")){
+                return View();
+            }
+            return Content($"Hello {search}");
+
         }
 
         public IActionResult Privacy()
         {
             return View();
+        }
+
+        public IActionResult Login()
+        {
+            return View();
+        }
+
+        public IActionResult Detail(){
+            return View("Detail");
+        }
+
+        [HttpPost]
+        public IActionResult Verify(Account a){
+            return View("Create",a);
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

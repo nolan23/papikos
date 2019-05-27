@@ -2779,13 +2779,58 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "Views/Kos/Delete.cshtml",
+      "TargetPath": "Views/Kos/Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "Views/Home/Detail.cshtml",
+      "TargetPath": "Views/Home/Detail.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "Views/Kos/Details.cshtml",
+      "TargetPath": "Views/Kos/Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "Views/Kos/Index.cshtml",
+      "TargetPath": "Views/Kos/Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "Views/_ViewImports.cshtml",
       "TargetPath": "Views/_ViewImports.cshtml",
       "FileKind": "mvc"
     },
     {
+      "FilePath": "Views/Kos/Edit.cshtml",
+      "TargetPath": "Views/Kos/Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "Views/Kos/Create.cshtml",
+      "TargetPath": "Views/Kos/Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "Views/Shared/Error.cshtml",
       "TargetPath": "Views/Shared/Error.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "Views/Home/Create.cshtml",
+      "TargetPath": "Views/Home/Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "Views/Home/Login.cshtml",
+      "TargetPath": "Views/Home/Login.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "Views/Shared/_DefaultLayout.cshtml",
+      "TargetPath": "Views/Shared/_DefaultLayout.cshtml",
       "FileKind": "mvc"
     },
     {
